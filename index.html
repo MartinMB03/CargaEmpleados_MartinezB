@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Simulador de Formulario de Informacion de Empleado</title>
+</head>
+<body>
+    <h2>Carga de Información de Empleado</h2>
+    <form id="formularioEmpleado">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" required>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" required>
+            <option value="">Seleccione...</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" required>
+
+        <label for="nacionalidad">Nacionalidad:</label>
+        <input type="text" id="nacionalidad" required>
+
+        <button class="estiloboton" type="submit">Agregar Persona</button>
+    </form>
+    <h3>Lista de Empleados:</h3>
+    <div id="detallesPersonas">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

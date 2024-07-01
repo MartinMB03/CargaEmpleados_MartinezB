@@ -1,0 +1,61 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            color: aliceblue;
+            padding: 20px;
+            background-color: black;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        h2{
+            font-size: 32px;
+            background-color: #4cafa3;
+            color: rgb(44, 42, 42);
+            text-align: center;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .estiloboton {
+            padding: 10px 20px;
+            background-color: #4cafa3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .estiloboton:hover {
+            background-color: cornflowerblue;
+        }
+        #detallesPersonas {
+            margin-top: 20px;
+        }
+        .persona {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+        }
+        
+        .eliminar {
+            margin-left: 10px;
+            padding: 5px 10px;
+            color: white;
+            background-color: red;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        h3{
+            font-size: 24px;
+            background-color: #4cafa3;
+            color: rgb(44, 42, 42);
+            text-align: center;
+        }
+
