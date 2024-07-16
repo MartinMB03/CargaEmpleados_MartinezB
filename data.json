@@ -1,0 +1,32 @@
+[
+  {
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "dni": "12345678",
+      "sexo": "masculino",
+      "edad": 30,
+      "telefono": "123456789",
+      "nacionalidad": "Argentina",
+      "anosAporteRestantes": 35
+  },
+  {
+      "nombre": "María",
+      "apellido": "Gómez",
+      "dni": "87654321",
+      "sexo": "femenino",
+      "edad": 28,
+      "telefono": "987654321",
+      "nacionalidad": "Chilena",
+      "anosAporteRestantes": 32
+  },
+  {
+      "nombre": "Carlos",
+      "apellido": "López",
+      "dni": "56781234",
+      "sexo": "masculino",
+      "edad": 35,
+      "telefono": "567123456",
+      "nacionalidad": "Española",
+      "anosAporteRestantes": 30
+  }
+]
